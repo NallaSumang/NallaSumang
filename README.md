@@ -1,4 +1,4 @@
-# Nalla Sumang | Systems Architect, Data Engineer & AI Orchestrator 👋
+# Nalla Sumang | Systems Architect, Data Engineer & AI Orchestrator 
 
 Performance-driven Generative AI & Full-Stack Engineer specializing in low-latency LLM architectures, multi-agent orchestration, and scalable data pipelines. I replace legacy systems with high-availability asynchronous workflows, and I have a relentless focus on inference optimization and delivering production-ready engineering solutions.
 
