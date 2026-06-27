@@ -23,36 +23,36 @@ I actively architect solutions for distributed AI and data orchestration framewo
 
 ## 🚀 Architecture & Infrastructure Projects
 
-* **Lumina-Proposals (Enterprise SaaS RAG)**
-* Architected an autonomous RAG product to process 100+ page corporate RFPs and security questionnaires. Engineered the complete data ingestion pipeline, utilizing specialized document parsers, semantic chunking strategies, and vector stores for high-accuracy enterprise retrieval.
+* **Lumina-Proposals (Enterprise SaaS RAG):**
+  Architected an autonomous RAG product to process 100+ page corporate RFPs and security questionnaires. Engineered the complete data ingestion pipeline, utilizing specialized document parsers, semantic chunking strategies, and vector stores for high-accuracy enterprise retrieval.
 
 
 
 
-* **Autonomous Multi-Agent AI Researcher**
-* Architected a scalable, asynchronous multi-agent orchestration layer using Next.js, Groq AI, Redis, Supabase, and Vercel. Engineered a robust state management system using Supabase pgvector for high-dimensional semantic search and Redis for high-speed session caching.
+* **Autonomous Multi-Agent AI Researcher:**
+  Architected a scalable, asynchronous multi-agent orchestration layer using Next.js, Groq AI, Redis, Supabase, and Vercel. Engineered a robust state management system using Supabase pgvector for high-dimensional semantic search and Redis for high-speed session caching.
 
 
-* **PlaceIQ Agentic Copilot**
-* Developed an autonomous, multi-agent orchestrator for career placement and HR technology. Implemented specialized LLM routing—featuring Match Scoring, Interview Coaching, and Cover Letter Generation—to parse job descriptions and execute dynamic, personalized workflow automation.
-
-
-
-
-* **Autonomous Resource & Communications Pipeline**
-* Architected a serverless, dual-LLM orchestration pipeline with a direct REST API integration to Groq (Llama 3.1), ensuring low-latency JSON data extraction and dynamic email responses.
+* **PlaceIQ Agentic Copilot:**
+  Developed an autonomous, multi-agent orchestrator for career placement and HR technology. Implemented specialized LLM routing—featuring Match Scoring, Interview Coaching, and Cover Letter Generation—to parse job descriptions and execute dynamic, personalized workflow automation.
 
 
 
 
-* **BrutalBench**
-* Designed a Next.js backend that securely manages master keys to intercept and scrape GitHub commits, powering an automated and dynamic n8n leaderboard pipeline.
+* **Autonomous Resource & Communications Pipeline:**
+  Architected a serverless, dual-LLM orchestration pipeline with a direct REST API integration to Groq (Llama 3.1), ensuring low-latency JSON data extraction and dynamic email responses.
 
 
 
 
-* **Salifort Motors HR Attrition Predictor**
-* Built predictive machine learning and regression models to identify primary drivers of employee turnover, executing the PACE framework to clean data and engineer features.
+* **BrutalBench:**
+  Designed a Next.js backend that securely manages master keys to intercept and scrape GitHub commits, powering an automated and dynamic n8n leaderboard pipeline.
+
+
+
+
+* **Salifort Motors HR Attrition Predictor:**
+  Built predictive machine learning and regression models to identify primary drivers of employee turnover, executing the PACE framework to clean data and engineer features.
 
 
 
@@ -73,7 +73,7 @@ I actively architect solutions for distributed AI and data orchestration framewo
 
 ## 🏆 Advanced Certifications (AI & Data Engineering)
 
-* **IBM RAG and Agentic AI Professional Certificate** (10-Course Sequence) — Coursera.
+* **IBM RAG and Agentic AI Professional Certificate** — Coursera.
 
 
 * **Oracle Cloud Infrastructure Certified AI Foundations Associate** — Oracle.
