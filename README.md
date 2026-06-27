@@ -22,25 +22,25 @@ I actively architect solutions for distributed AI and data orchestration framewo
 ## 🚀 Architecture & Infrastructure Projects
 
 * **Lumina-Proposals (Enterprise SaaS RAG)**
-* Architected an autonomous RAG product to process 100+ page corporate RFPs and security questionnaires. Engineered the complete data ingestion pipeline, utilizing specialized document parsers, semantic chunking strategies, and vector stores for high-accuracy enterprise retrieval.
+  Architected an autonomous RAG product to process 100+ page corporate RFPs and security questionnaires. Engineered the complete data ingestion pipeline, utilizing specialized document parsers, semantic chunking strategies, and vector stores for high-accuracy enterprise retrieval.
 
 
 
 
 * **PlaceIQ Agentic Copilot**
-* Developed an autonomous, multi-agent orchestrator for career placement and HR technology. Implemented specialized LLM routing—featuring Match Scoring, Interview Coaching, and Cover Letter Generation—to parse job descriptions and execute dynamic, personalized workflow automation.
+  Developed an autonomous, multi-agent orchestrator for career placement and HR technology. Implemented specialized LLM routing—featuring Match Scoring, Interview Coaching, and Cover Letter Generation—to parse job descriptions and execute dynamic, personalized workflow automation.
 
 
 
 
 * **BrutalBench**
-* Designed a Next.js backend that securely manages master keys to intercept and scrape GitHub commits, powering an automated and dynamic n8n leaderboard pipeline.
+  Designed a Next.js backend that securely manages master keys to intercept and scrape GitHub commits, powering an automated and dynamic n8n leaderboard pipeline.
 
 
 
 
 * **Salifort Motors HR Attrition Predictor**
-* Built predictive machine learning and regression models to identify primary drivers of employee turnover, executing the PACE framework to clean data and engineer features.
+  Built predictive machine learning and regression models to identify primary drivers of employee turnover, executing the PACE framework to clean data and engineer features.
 
 
 
