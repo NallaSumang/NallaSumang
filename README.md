@@ -58,6 +58,18 @@ I actively dive into the core execution layers of enterprise frameworks to resol
 
 ---
 
+## 🏆 Advanced Certifications (AI & Data Engineering)
+
+* **IBM RAG and Agentic AI Professional Certificate** — Coursera.
+* **Oracle Cloud Infrastructure Certified AI Foundations Associate** — Oracle.
+* **AI Engineer for Data Scientists Associate** — DataCamp.
+* **Associate Data Engineer** — DataCamp.
+* **The LLM Course Certificate** — Hugging Face.
+* **Microsoft SQL Server Professional Certificate** — Coursera.
+* **Google Advanced Data Analytics Professional Certificate** — Coursera.
+
+---
+
 ## ⚙️ Core Architecture & Agentic Toolkit
 
 * **Intelligence Swarms:** LangChain, CrewAI, LLM Orchestration, RAG Architecture, Autonomous Agents.
