@@ -14,37 +14,37 @@ Primary engineering focus centers on architecting deeply decoupled systems—dep
 
 ---
 
-## 🚀 Architectural Masterpieces & Agentic Swarms
+## 🚀 Core Engineering Projects
 
 ### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Production Deployment](https://nexus-ai-vqxe.onrender.com)
 > **Architecture:** Decoupled Edge UI (React/Vite), Orchestration Gateway (Node.js), and Intelligence Swarm (Python/FastAPI).
-* Architected a fully autonomous, multi-agent platform for predictive career matching and interview simulation.
-* Utilized **Redis (BullMQ)** for non-blocking task delegation, deploying the entire multi-language stack via a singular, unified **Docker** container to guarantee zero-downtime AI inference.
+* Architected an autonomous multi-agent LLM orchestrator that transforms complex campus placement workflows into a seamless command center.
+* Engineered a decoupled, multi-language stack utilizing **Redis (BullMQ)** for non-blocking task delegation and a unified **Docker** container for zero-downtime automated match scoring and interview prep.
 
 ### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [Production Deployment](https://sumang-vision-ai-jczj.vercel.app/)
-> **Architecture:** Next.js Edge Execution, Multi-Modal Vision Processing, Real-Time Inference.
-* Engineered a high-performance computer vision orchestration platform leveraging advanced multi-modal LLM reasoning.
-* Designed a zero-latency, highly concurrent backend capable of processing complex visual schemas and real-time environment analytics.
+> **Architecture:** Next.js Edge Execution, Persistent Session State, Real-Time Inference.
+* Engineered a highly concurrent, memory-persistent visual LLM engine designed to sustain unbroken context for long-duration group analysis.
+* Designed the backend to bypass standard stateless limitations, allowing the system to process complex visual schemas while retaining localized memory for up to 3 hours of continuous multi-user interaction.
 
 ### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Production Deployment](https://distributed-ai-researcher.vercel.app)
-> **Architecture:** Next.js, Groq (Llama 3), Redis, Supabase (pgvector).
-* Built a scalable, asynchronous multi-agent orchestration layer using high-speed LLM inference.
-* Engineered robust state management using **Supabase pgvector** for high-dimensional semantic search and **Redis** for sub-millisecond session caching.
+> **Architecture:** Next.js, Groq (Llama 3.3 70B Swarm), Redis, Supabase (pgvector).
+* Engineered a distributed agentic research engine that leverages a swarm of Llama 3.3 70B models to perform deep-dive information synthesis.
+* Designed the system to decompose complex human queries into parallel execution tasks, retrieving live web data to programmatically generate structured, high-accuracy intelligence reports.
 
 ### [AI Resource Manager Pipeline](https://github.com/NallaSumang/AI-RESOURCE-MANAGER)
 > **Architecture:** Serverless Execution, Dual-LLM Orchestration, Groq Native Integration.
-* Architected a serverless, dual-LLM orchestration pipeline with a direct REST API integration to Groq (Llama 3.1).
-* Ensured ultra-low latency JSON data extraction and dynamic, context-aware email responses through optimized prompt engineering.
+* Architected a production-grade orchestration pipeline that bypasses standard "no-code" limitations by directly integrating Groq LPUs via raw REST APIs.
+* Transformed unstructured human intent into strictly enforced JSON schemas and scheduled calendar events with guaranteed sub-4s latency execution.
 
 ### [BrutalBench Automation](https://github.com/NallaSumang/BrutalBench)
-> **Architecture:** Next.js Backend, Cryptographic Key Management, n8n Orchestration.
-* Designed a secure Next.js backend architecture to intercept and scrape GitHub commit data continuously.
-* Powered an automated, dynamic n8n leaderboard pipeline by securely managing master keys and Webhook payload transformations.
+> **Architecture:** Monolithic Next.js Application, Cryptographic Key Management, Automated Code Evaluation.
+* Designed a monolithic Next.js backend architecture to intercept, parse, and ruthlessly evaluate raw developer code commits using autonomous AI pipelines.
+* Powered an automated, dynamic execution leaderboard by securely managing master keys and complex Webhook payload transformations.
 
 ### [Salifort Motors Predictive Modeler](https://github.com/NallaSumang/Google-Advance-Data-Analytics-Capstone-Project)
 > **Architecture:** Machine Learning pipelines, Regression Analytics, PACE Framework.
-* Engineered predictive machine learning and regression models to identify the primary drivers of employee turnover.
-* Executed the rigorous PACE framework to sanitize massive datasets and engineer highly accurate predictive features.
+* Engineered an end-to-end data analytics and predictive machine learning pipeline designed to identify the mathematical drivers of employee attrition.
+* Executed the rigorous PACE framework to sanitize massive HR datasets, conduct exploratory data analysis (EDA), and engineer highly accurate predictive features.
 
 ---
 
