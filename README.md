@@ -1,6 +1,6 @@
 <div align="center">
   <h1>NALLA SUMANG</h1>
-  <h3>AI Product Engineer & Agentic Systems Architect</h3>
+  <h3>AI Systems Architect & Agentic Orchestrator</h3>
   <p><em>Orchestrating Autonomous Workflows, LLM Pipelines, and Enterprise-Grade Integrations.</em></p>
 </div>
 
@@ -8,7 +8,7 @@
 
 ## ⚡ Executive Summary
 
-An AI Product Engineer and Systems Architect specializing in the rapid integration, design, and orchestration of autonomous agentic workflows. Focuses heavily on replacing legacy bottlenecks with high-availability, AI-driven asynchronous architectures.
+An AI Systems Architect specializing in the rapid integration, design, and orchestration of autonomous agentic workflows. Focuses heavily on replacing legacy bottlenecks with high-availability, AI-driven asynchronous architectures.
 
 Expertise lies in high-level system orchestration—leveraging advanced AI to architect and integrate production-grade infrastructures at unprecedented speeds. This encompasses deploying autonomous execution swarms over asynchronous message queues, enforcing robust state management through high-dimensional vector databases, and bridging complex, zero-downtime microservices capable of handling massive telemetry and inference workloads.
 
@@ -36,15 +36,15 @@ Expertise lies in high-level system orchestration—leveraging advanced AI to ar
 * **Architectural Overview:** Designed an autonomous, dual-LLM scheduling engine tailored for ultra-low latency execution environments.
 * **System Design:** Deliberately bypassed standard "no-code" workflow limitations by engineering direct, raw REST API integrations to Groq LPUs. This architectural decision achieved sub-4s total execution latency while enforcing strict JSON schema validations on unstructured payloads.
 
-### [Aurashield Crisis Management Platform](https://github.com/NallaSumang/Aurashield)
-> **Domain:** IoT Telemetry, High-Availability Systems, Real-Time WebSockets.
-* **Architectural Overview:** Engineered a mission-critical disaster response dashboard designed to process and visualize real-time IoT device telemetry and hazard heatmaps.
-* **System Design:** Implemented a highly concurrent, real-time notification layer capable of parsing active device locations and simultaneously broadcasting localized, multilingual emergency protocols without network saturation.
+### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI)
+> **Domain:** Edge Execution, Persistent State, Multi-Modal Inference.
+* **Architectural Overview:** Engineered a highly concurrent, memory-persistent visual LLM engine designed to sustain unbroken context for long-duration analysis.
+* **System Design:** Designed the backend to bypass standard stateless limitations, allowing the system to process complex visual schemas while retaining localized memory for continuous multi-user interaction.
 
-### [Smart Factory Dashboard](https://github.com/NallaSumang/Smart-Factory-Dashboard)
-> **Domain:** Industrial Telemetry, API Gateway, Full-Stack Architecture.
-* **Architectural Overview:** Developed a production-grade application for the real-time monitoring and control of industrial factory hardware.
-* **System Design:** Architected a robust **Python/FastAPI** backend to serve as a high-throughput telemetry gateway, ensuring state consistency and rendering low-latency diagnostics to a decoupled React client interface.
+### [BrutalBench Automation](https://github.com/NallaSumang/BrutalBench)
+> **Domain:** CI/CD Integration, Cryptographic Keys, Autonomous Code Evaluation.
+* **Architectural Overview:** Designed a monolithic Next.js backend architecture to intercept, parse, and ruthlessly evaluate raw developer code commits using autonomous AI pipelines.
+* **System Design:** Powered an automated, dynamic execution leaderboard by securely managing master keys and complex Webhook payload transformations.
 
 ---
 
