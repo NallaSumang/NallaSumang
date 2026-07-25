@@ -16,7 +16,7 @@ My engineering focus lies in architecting deeply decoupled systems—deploying a
 
 ## 🚀 Architectural Masterpieces & Agentic Swarms
 
-### [Nexus Career Intelligence](https://github.com/NallaSumang/PlaceIQ-Agentic-Copilot)
+### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE)
 > **Architecture:** Decoupled Edge UI (React/Vite), Orchestration Gateway (Node.js), and Intelligence Swarm (Python/FastAPI).
 * Architected a fully autonomous, multi-agent platform for predictive career matching and interview simulation.
 * Utilized **Redis (BullMQ)** for non-blocking task delegation, deploying the entire multi-language stack via a singular, unified **Docker** container to guarantee zero-downtime AI inference.
@@ -26,12 +26,12 @@ My engineering focus lies in architecting deeply decoupled systems—deploying a
 * Engineered a high-accuracy Retrieval-Augmented Generation (RAG) product capable of processing 100+ page corporate RFPs and security questionnaires autonomously.
 * Built the complete data ingestion pipeline, utilizing specialized document parsers and semantic chunking strategies for enterprise-level data retrieval.
 
-### [Autonomous Multi-Agent AI Researcher](https://github.com/NallaSumang/Autonomous-Multi-Agent-AI-Researcher)
+### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-)
 > **Architecture:** Next.js, Groq (Llama 3), Redis, Supabase (pgvector).
 * Built a scalable, asynchronous multi-agent orchestration layer using high-speed LLM inference.
 * Engineered robust state management using **Supabase pgvector** for high-dimensional semantic search and **Redis** for sub-millisecond session caching.
 
-### [Autonomous Resource & Communications Pipeline](https://github.com/NallaSumang/Autonomous-Resource-Communications-Pipeline)
+### [AI Resource Manager Pipeline](https://github.com/NallaSumang/AI-RESOURCE-MANAGER)
 > **Architecture:** Serverless Execution, Dual-LLM Orchestration, Groq Native Integration.
 * Architected a serverless, dual-LLM orchestration pipeline with a direct REST API integration to Groq (Llama 3.1).
 * Ensured ultra-low latency JSON data extraction and dynamic, context-aware email responses through optimized prompt engineering.
@@ -41,7 +41,7 @@ My engineering focus lies in architecting deeply decoupled systems—deploying a
 * Designed a secure Next.js backend architecture to intercept and scrape GitHub commit data continuously.
 * Powered an automated, dynamic n8n leaderboard pipeline by securely managing master keys and Webhook payload transformations.
 
-### [Salifort Motors Predictive Modeler](https://github.com/NallaSumang/Salifort-Motors-HR-Attrition)
+### [Salifort Motors Predictive Modeler](https://github.com/NallaSumang/Google-Advance-Data-Analytics-Capstone-Project)
 > **Architecture:** Machine Learning pipelines, Regression Analytics, PACE Framework.
 * Engineered predictive machine learning and regression models to identify the primary drivers of employee turnover.
 * Executed the rigorous PACE framework to sanitize massive datasets and engineer highly accurate predictive features.
