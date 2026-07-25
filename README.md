@@ -1,20 +1,16 @@
 <div align="center">
   <h1>NALLA SUMANG</h1>
-  <h3>AI Systems Architect & Agentic Automater</h3>
-  <p><em>Orchestrating Autonomous LLM Swarms and High-Availability Distributed Architectures.</em></p>
-
-  <a href="https://linkedin.com/in/nallasumang" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <h3>AI Systems Architect & LLM Orchestrator</h3>
+  <p><em>Engineering Autonomous Multi-Agent Systems and High-Availability Distributed Architectures.</em></p>
 </div>
 
 ---
 
 ## ⚡ Executive Profile
 
-I am a Systems Architect and AI Engineer specializing in **Agentic Automation, LLM Orchestration, and Distributed Microservices**. I architect the infrastructure that allows artificial intelligence to operate autonomously at an enterprise scale. 
+I am an AI Systems Architect specializing in **Agentic Intelligence, LLM Orchestration, and Distributed Microservices**. I design the infrastructure that enables artificial intelligence to operate autonomously at an enterprise scale. 
 
-I do not write API wrappers; I engineer deeply decoupled systems—deploying autonomous AI agents over asynchronous message queues, integrating high-dimensional vector search, and establishing zero-downtime execution pipelines for massive LLM inference workloads.
+My engineering focus lies in architecting deeply decoupled systems—deploying autonomous AI agents over asynchronous message queues, integrating high-dimensional vector search, and establishing zero-downtime execution pipelines for massive LLM inference workloads.
 
 ---
 
