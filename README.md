@@ -8,25 +8,25 @@
 
 ## ⚡ Executive Profile
 
-I am an AI Systems Architect specializing in **Agentic Intelligence, LLM Orchestration, and Distributed Microservices**. I design the infrastructure that enables artificial intelligence to operate autonomously at an enterprise scale. 
+An AI Systems Architect specializing in **Agentic Intelligence, LLM Orchestration, and Distributed Microservices**. Expertise lies in designing the critical infrastructure that enables artificial intelligence to operate autonomously at an enterprise scale. 
 
-My engineering focus lies in architecting deeply decoupled systems—deploying autonomous AI agents over asynchronous message queues, integrating high-dimensional vector search, and establishing zero-downtime execution pipelines for massive LLM inference workloads.
+Primary engineering focus centers on architecting deeply decoupled systems—deploying autonomous AI agents over asynchronous message queues, integrating high-dimensional vector search, and establishing zero-downtime execution pipelines for massive LLM inference workloads.
 
 ---
 
 ## 🚀 Architectural Masterpieces & Agentic Swarms
 
-### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [🔴 Live Deployment](https://nexus-ai-vqxe.onrender.com)
+### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Production Deployment](https://nexus-ai-vqxe.onrender.com)
 > **Architecture:** Decoupled Edge UI (React/Vite), Orchestration Gateway (Node.js), and Intelligence Swarm (Python/FastAPI).
 * Architected a fully autonomous, multi-agent platform for predictive career matching and interview simulation.
 * Utilized **Redis (BullMQ)** for non-blocking task delegation, deploying the entire multi-language stack via a singular, unified **Docker** container to guarantee zero-downtime AI inference.
 
-### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [🔴 Live Deployment](https://sumang-vision-ai-jczj.vercel.app/)
+### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [Production Deployment](https://sumang-vision-ai-jczj.vercel.app/)
 > **Architecture:** Next.js Edge Execution, Multi-Modal Vision Processing, Real-Time Inference.
 * Engineered a high-performance computer vision orchestration platform leveraging advanced multi-modal LLM reasoning.
 * Designed a zero-latency, highly concurrent backend capable of processing complex visual schemas and real-time environment analytics.
 
-### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [🔴 Live Deployment](https://distributed-ai-researcher.vercel.app)
+### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Production Deployment](https://distributed-ai-researcher.vercel.app)
 > **Architecture:** Next.js, Groq (Llama 3), Redis, Supabase (pgvector).
 * Built a scalable, asynchronous multi-agent orchestration layer using high-speed LLM inference.
 * Engineered robust state management using **Supabase pgvector** for high-dimensional semantic search and **Redis** for sub-millisecond session caching.
@@ -50,7 +50,7 @@ My engineering focus lies in architecting deeply decoupled systems—deploying a
 
 ## 🛠️ Open Source & Execution Layer Contributions
 
-I actively dive into the core execution layers of enterprise frameworks to resolve critical vulnerabilities:
+Actively diagnosing and resolving critical vulnerabilities within the core execution layers of enterprise frameworks:
 
 * **[n8n (Enterprise AI Automation) — PR #31726](https://github.com/n8n-io/n8n/pull/31726)**
   * Authored a critical patch to resolve a fatal Model Context Protocol (MCP) server crash in the webhook execution layer by safe-chaining uninitialized node parameters.
