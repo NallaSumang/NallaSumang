@@ -1,87 +1,86 @@
 <div align="center">
   <h1>NALLA SUMANG</h1>
-  <h3>AI Systems Architect & LLM Orchestrator</h3>
-  <p><em>Engineering Autonomous Multi-Agent Systems and High-Availability Distributed Architectures.</em></p>
+  <h3>Senior Software Architect | AI & Distributed Systems</h3>
+  <p><em>Designing and deploying highly-available, scalable, and enterprise-grade distributed architectures.</em></p>
 </div>
 
 ---
 
-## ⚡ Executive Profile
+## ⚡ Executive Summary
 
-An AI Systems Architect specializing in **Agentic Intelligence, LLM Orchestration, and Distributed Microservices**. Expertise lies in designing the critical infrastructure that enables artificial intelligence to operate autonomously at an enterprise scale. 
+I am a Software Architect specializing in the design, orchestration, and deployment of cloud-native distributed systems and enterprise AI pipelines. My engineering philosophy centers on architectural rigor, low-latency execution, and system decoupling.
 
-Primary engineering focus centers on architecting deeply decoupled systems—deploying autonomous AI agents over asynchronous message queues, integrating high-dimensional vector search, and establishing zero-downtime execution pipelines for massive LLM inference workloads.
+Rather than relying on abstract AI wrappers, I lead the technical design of production-grade infrastructures. My expertise spans deploying autonomous execution swarms over asynchronous message queues, engineering robust state management through high-dimensional vector databases, and architecting highly concurrent, zero-downtime microservices capable of handling massive telemetry and inference workloads. 
 
 ---
 
-## 🚀 Core Engineering Projects
-
-### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Production Deployment](https://nexus-ai-vqxe.onrender.com)
-> **Architecture:** Decoupled Edge UI (React/Vite), Orchestration Gateway (Node.js), and Intelligence Swarm (Python/FastAPI).
-* Architected an autonomous multi-agent LLM orchestrator that transforms complex campus placement workflows into a seamless command center.
-* Engineered a decoupled, multi-language stack utilizing **Redis (BullMQ)** for non-blocking task delegation and a unified **Docker** container for zero-downtime automated match scoring and interview prep.
-
-### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [Production Deployment](https://sumang-vision-ai-jczj.vercel.app/)
-> **Architecture:** Next.js Edge Execution, Persistent Session State, Real-Time Inference.
-* Engineered a highly concurrent, memory-persistent visual LLM engine designed to sustain unbroken context for long-duration group analysis.
-* Designed the backend to bypass standard stateless limitations, allowing the system to process complex visual schemas while retaining localized memory for up to 3 hours of continuous multi-user interaction.
+## 🚀 Core Architectural Implementations
 
 ### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Production Deployment](https://distributed-ai-researcher.vercel.app)
-> **Architecture:** Next.js, Groq (Llama 3.3 70B Swarm), Redis, Supabase (pgvector).
-* Engineered a distributed agentic research engine that leverages a swarm of Llama 3.3 70B models to perform deep-dive information synthesis.
-* Designed the system to decompose complex human queries into parallel execution tasks, retrieving live web data to programmatically generate structured, high-accuracy intelligence reports.
+> **Domain:** Distributed Systems, Parallel Execution, Multi-Agent Orchestration.
+* **Architectural Overview:** Engineered a highly scalable, distributed research engine that decomposes complex heuristic queries into parallel execution threads. 
+* **System Design:** Leveraged a swarm of high-parameter models (Llama 3.3 70B) orchestrated through a Next.js edge environment, utilizing **Redis** for sub-millisecond session caching and **Supabase (pgvector)** for high-dimensional semantic state management.
+
+### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Production Deployment](https://nexus-ai-vqxe.onrender.com)
+> **Domain:** Full-Stack Decoupling, Container Orchestration, Asynchronous Queues.
+* **Architectural Overview:** Architected a production-grade, multi-agent LLM orchestrator that automates complex career matching and simulation pipelines.
+* **System Design:** Designed a deeply decoupled microservice architecture bridging a React/Vite client and a Python/FastAPI intelligence layer. Integrated **Redis (BullMQ)** to ensure non-blocking, asynchronous task delegation and containerized the entire ecosystem via unified **Docker** deployments to guarantee zero-downtime CI/CD.
+
+### [Lumina-Proposals (Enterprise SaaS RAG)](https://github.com/NallaSumang/Lumina-Proposals)
+> **Domain:** Cloud-Native Data Pipelines, Enterprise RAG, Vector Search.
+* **Architectural Overview:** Architected a robust enterprise SaaS platform designed to ingest, semantically chunk, and automate the parsing of massive 100+ page corporate RFPs.
+* **System Design:** Built a highly scalable data ingestion pipeline that transforms unstructured corporate documents into normalized, queryable vector spaces, enabling high-accuracy, deterministic data retrieval over large context windows.
 
 ### [AI Resource Manager Pipeline](https://github.com/NallaSumang/AI-RESOURCE-MANAGER)
-> **Architecture:** Serverless Execution, Dual-LLM Orchestration, Groq Native Integration.
-* Architected a production-grade orchestration pipeline that bypasses standard "no-code" limitations by directly integrating Groq LPUs via raw REST APIs.
-* Transformed unstructured human intent into strictly enforced JSON schemas and scheduled calendar events with guaranteed sub-4s latency execution.
+> **Domain:** Serverless Architecture, Latency Optimization, Schema Enforcement.
+* **Architectural Overview:** Designed an autonomous, dual-LLM scheduling engine tailored for ultra-low latency execution environments.
+* **System Design:** Deliberately bypassed standard "no-code" workflow limitations by engineering direct, raw REST API integrations to Groq LPUs. This architectural decision achieved sub-4s total execution latency while enforcing strict JSON schema validations on unstructured payloads.
 
-### [BrutalBench Automation](https://github.com/NallaSumang/BrutalBench)
-> **Architecture:** Monolithic Next.js Application, Cryptographic Key Management, Automated Code Evaluation.
-* Designed a monolithic Next.js backend architecture to intercept, parse, and ruthlessly evaluate raw developer code commits using autonomous AI pipelines.
-* Powered an automated, dynamic execution leaderboard by securely managing master keys and complex Webhook payload transformations.
+### [Aurashield Crisis Management Platform](https://github.com/NallaSumang/Aurashield)
+> **Domain:** IoT Telemetry, High-Availability Systems, Real-Time WebSockets.
+* **Architectural Overview:** Engineered a mission-critical disaster response dashboard designed to process and visualize real-time IoT device telemetry and hazard heatmaps.
+* **System Design:** Implemented a highly concurrent, real-time notification layer capable of parsing active device locations and simultaneously broadcasting localized, multilingual emergency protocols without network saturation.
 
-### [Salifort Motors Predictive Modeler](https://github.com/NallaSumang/Google-Advance-Data-Analytics-Capstone-Project)
-> **Architecture:** Machine Learning pipelines, Regression Analytics, PACE Framework.
-* Engineered an end-to-end data analytics and predictive machine learning pipeline designed to identify the mathematical drivers of employee attrition.
-* Executed the rigorous PACE framework to sanitize massive HR datasets, conduct exploratory data analysis (EDA), and engineer highly accurate predictive features.
+### [Smart Factory Dashboard](https://github.com/NallaSumang/Smart-Factory-Dashboard)
+> **Domain:** Industrial Telemetry, API Gateway, Full-Stack Architecture.
+* **Architectural Overview:** Developed a production-grade application for the real-time monitoring and control of industrial factory hardware.
+* **System Design:** Architected a robust **Python/FastAPI** backend to serve as a high-throughput telemetry gateway, ensuring state consistency and rendering low-latency diagnostics to a decoupled React client interface.
 
 ---
 
-## 🛠️ Open Source & Execution Layer Contributions
+## 🛠️ Open Source & Infrastructure Contributions
 
-Actively diagnosing and resolving critical vulnerabilities within the core execution layers of enterprise frameworks:
+I actively audit and contribute to the execution layers of major open-source frameworks, focusing heavily on memory safety and runtime stability:
 
 * **[n8n (Enterprise AI Automation) — PR #31726](https://github.com/n8n-io/n8n/pull/31726)**
-  * Authored a critical patch to resolve a fatal Model Context Protocol (MCP) server crash in the webhook execution layer by safe-chaining uninitialized node parameters.
+  * Engineered a critical patch to resolve a fatal Model Context Protocol (MCP) server crash in the webhook execution layer by safe-chaining uninitialized node parameters.
 
 * **[Pydantic (Data Validation) — Issue #13272](https://github.com/pydantic/pydantic/issues/13272)**
   * Diagnosed and staged a recursion-guard patch to prevent a core C-level segmentation fault during PEP 695 self-referential type alias unwrapping.
 
 ---
 
-## 💼 Enterprise Infrastructure Experience
+## 💼 Enterprise Engineering Experience
 
-* **Walmart Global Tech:** Designed robust relational database schemas and optimized data munging operations for high-load backend retail environments.
-* **JPMorgan Chase & Co.:** Implemented high-throughput messaging and fault-tolerant data storage solutions integrating Kafka data streams.
-* **Commonwealth Bank:** Executed full-stack engineering tasks, modifying .NET backends and React frontends via strict Git CI/CD Pull Requests.
-* **Deloitte:** Formulated advanced threat mitigation strategies and executed security protocols to neutralize simulated network vulnerabilities.
+* **Walmart Global Tech:** Designed highly normalized relational database schemas and optimized massive data munging operations to support high-load backend retail environments.
+* **JPMorgan Chase & Co.:** Implemented high-throughput, fault-tolerant data storage and messaging solutions integrating Kafka data streams.
+* **Commonwealth Bank:** Executed complex full-stack engineering requirements, migrating and modifying core .NET backend services and React frontend components.
+* **Deloitte:** Formulated advanced threat mitigation architectures and executed rigorous security protocols to neutralize simulated enterprise network vulnerabilities.
 
 ---
 
-## 🏆 Advanced Certifications (AI & Data Engineering)
+## 🏆 Advanced Certifications
 
 * **IBM RAG and Agentic AI Professional Certificate** — Coursera.
 * **Oracle Cloud Infrastructure Certified AI Foundations Associate** — Oracle.
 * **AI Engineer for Data Scientists Associate** — DataCamp.
 * **Associate Data Engineer** — DataCamp.
-* **The LLM Course Certificate** — Hugging Face.
 * **Microsoft SQL Server Professional Certificate** — Coursera.
 * **Google Advanced Data Analytics Professional Certificate** — Coursera.
 
 ---
 
-## ⚙️ Core Architecture & Agentic Toolkit
+## ⚙️ Core Architecture & Technology Stack
 
 <div align="center">
   <br />
@@ -93,6 +92,7 @@ Actively diagnosing and resolving critical vulnerabilities within the core execu
 
 <br>
 
-* **Intelligence Swarms:** LangChain, CrewAI, LLM Orchestration, RAG Architecture, Autonomous Agents.
-* **Systems Architecture:** Docker, Microservices, REST API Design, Redis (BullMQ), Event-Driven Queues.
-* **Data Layer:** MongoDB (NoSQL), Supabase (pgvector), High-Dimensional Vector Search.
+* **System Design:** Microservices, Event-Driven Queues, Container Orchestration (Docker), Serverless Functions.
+* **Data Infrastructure:** Relational SQL, MongoDB (NoSQL), Supabase (pgvector), Redis (BullMQ), Vector Search.
+* **Backend Frameworks:** Node.js, Next.js (Edge), Python (FastAPI).
+* **AI Integration:** LLM Orchestration, LangChain, CrewAI, RAG Architecture, Multi-Agent Swarms.
