@@ -1,16 +1,16 @@
 <div align="center">
   <h1>NALLA SUMANG</h1>
-  <h3>Senior Software Architect | AI & Distributed Systems</h3>
-  <p><em>Designing and deploying highly-available, scalable, and enterprise-grade distributed architectures.</em></p>
+  <h3>AI Product Engineer & Agentic Systems Architect</h3>
+  <p><em>Orchestrating Autonomous Workflows, LLM Pipelines, and Enterprise-Grade Integrations.</em></p>
 </div>
 
 ---
 
 ## ⚡ Executive Summary
 
-I am a Software Architect specializing in the design, orchestration, and deployment of cloud-native distributed systems and enterprise AI pipelines. My engineering philosophy centers on architectural rigor, low-latency execution, and system decoupling.
+An AI Product Engineer and Systems Architect specializing in the rapid integration, design, and orchestration of autonomous agentic workflows. Focuses heavily on replacing legacy bottlenecks with high-availability, AI-driven asynchronous architectures.
 
-Rather than relying on abstract AI wrappers, I lead the technical design of production-grade infrastructures. My expertise spans deploying autonomous execution swarms over asynchronous message queues, engineering robust state management through high-dimensional vector databases, and architecting highly concurrent, zero-downtime microservices capable of handling massive telemetry and inference workloads. 
+Expertise lies in high-level system orchestration—leveraging advanced AI to architect and integrate production-grade infrastructures at unprecedented speeds. This encompasses deploying autonomous execution swarms over asynchronous message queues, enforcing robust state management through high-dimensional vector databases, and bridging complex, zero-downtime microservices capable of handling massive telemetry and inference workloads.
 
 ---
 
