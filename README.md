@@ -14,26 +14,41 @@
 
 I am a Systems Architect and AI Engineer specializing in **Agentic Automation, LLM Orchestration, and Distributed Microservices**. I architect the infrastructure that allows artificial intelligence to operate autonomously at an enterprise scale. 
 
-I do not write wrappers; I engineer deeply decoupled systems—deploying autonomous AI agents over asynchronous message queues, integrating high-dimensional vector search, and establishing zero-downtime execution pipelines for massive LLM inference workloads.
+I do not write API wrappers; I engineer deeply decoupled systems—deploying autonomous AI agents over asynchronous message queues, integrating high-dimensional vector search, and establishing zero-downtime execution pipelines for massive LLM inference workloads.
 
 ---
 
-## 🚀 Architectural Masterpieces & Live Deployments
+## 🚀 Architectural Masterpieces & Agentic Swarms
 
-### [Nexus Career Intelligence](https://github.com/NallaSumang/PlaceIQ-Agentic-Copilot) | [🔴 Live Deployment](https://nexus-ai-vqxe.onrender.com)
+### [Nexus Career Intelligence](https://github.com/NallaSumang/PlaceIQ-Agentic-Copilot)
 > **Architecture:** Decoupled Edge UI (React/Vite), Orchestration Gateway (Node.js), and Intelligence Swarm (Python/FastAPI).
-* **Engineering Impact:** Architected a fully autonomous, multi-agent platform for predictive career matching and interview simulation.
-* **Infrastructure:** Utilized **Redis (BullMQ)** for non-blocking task delegation, deploying the entire multi-language stack via a singular, unified **Docker** container on Render to guarantee zero-downtime AI inference.
+* Architected a fully autonomous, multi-agent platform for predictive career matching and interview simulation.
+* Utilized **Redis (BullMQ)** for non-blocking task delegation, deploying the entire multi-language stack via a singular, unified **Docker** container to guarantee zero-downtime AI inference.
 
-### [Lumina-Proposals (Enterprise SaaS RAG)](https://github.com/NallaSumang/Lumina-Proposals) | [🔴 Live Deployment](https://lumina-proposals.vercel.app/)
+### [Lumina-Proposals (Enterprise SaaS RAG)](https://github.com/NallaSumang/Lumina-Proposals)
 > **Architecture:** Serverless Edge (Next.js), Python Execution Environment, Semantic Vector DB.
-* **Engineering Impact:** Engineered a high-accuracy Retrieval-Augmented Generation (RAG) product capable of processing 100+ page corporate RFPs and security questionnaires autonomously.
-* **Infrastructure:** Built the complete data ingestion pipeline, utilizing specialized document parsers and semantic chunking strategies for enterprise-level data retrieval.
+* Engineered a high-accuracy Retrieval-Augmented Generation (RAG) product capable of processing 100+ page corporate RFPs and security questionnaires autonomously.
+* Built the complete data ingestion pipeline, utilizing specialized document parsers and semantic chunking strategies for enterprise-level data retrieval.
 
-### [Autonomous Multi-Agent AI Researcher](https://github.com/NallaSumang/Autonomous-Multi-Agent-AI-Researcher) | [🔴 Live Deployment](https://autonomous-multi-agent-ai-researcher.vercel.app/)
+### [Autonomous Multi-Agent AI Researcher](https://github.com/NallaSumang/Autonomous-Multi-Agent-AI-Researcher)
 > **Architecture:** Next.js, Groq (Llama 3), Redis, Supabase (pgvector).
-* **Engineering Impact:** Built a scalable, asynchronous multi-agent orchestration layer using high-speed LLM inference.
-* **Infrastructure:** Engineered robust state management using **Supabase pgvector** for high-dimensional semantic search and **Redis** for sub-millisecond session caching.
+* Built a scalable, asynchronous multi-agent orchestration layer using high-speed LLM inference.
+* Engineered robust state management using **Supabase pgvector** for high-dimensional semantic search and **Redis** for sub-millisecond session caching.
+
+### [Autonomous Resource & Communications Pipeline](https://github.com/NallaSumang/Autonomous-Resource-Communications-Pipeline)
+> **Architecture:** Serverless Execution, Dual-LLM Orchestration, Groq Native Integration.
+* Architected a serverless, dual-LLM orchestration pipeline with a direct REST API integration to Groq (Llama 3.1).
+* Ensured ultra-low latency JSON data extraction and dynamic, context-aware email responses through optimized prompt engineering.
+
+### [BrutalBench Automation](https://github.com/NallaSumang/BrutalBench)
+> **Architecture:** Next.js Backend, Cryptographic Key Management, n8n Orchestration.
+* Designed a secure Next.js backend architecture to intercept and scrape GitHub commit data continuously.
+* Powered an automated, dynamic n8n leaderboard pipeline by securely managing master keys and Webhook payload transformations.
+
+### [Salifort Motors Predictive Modeler](https://github.com/NallaSumang/Salifort-Motors-HR-Attrition)
+> **Architecture:** Machine Learning pipelines, Regression Analytics, PACE Framework.
+* Engineered predictive machine learning and regression models to identify the primary drivers of employee turnover.
+* Executed the rigorous PACE framework to sanitize massive datasets and engineer highly accurate predictive features.
 
 ---
 
@@ -54,7 +69,7 @@ I actively dive into the core execution layers of enterprise frameworks to resol
 * **Walmart Global Tech:** Designed robust relational database schemas and optimized data munging operations for high-load backend retail environments.
 * **JPMorgan Chase & Co.:** Implemented high-throughput messaging and fault-tolerant data storage solutions integrating Kafka data streams.
 * **Commonwealth Bank:** Executed full-stack engineering tasks, modifying .NET backends and React frontends via strict Git CI/CD Pull Requests.
-* **Salifort Motors:** Built predictive machine learning and regression models to identify primary drivers of employee turnover using the PACE framework.
+* **Deloitte:** Formulated advanced threat mitigation strategies and executed security protocols to neutralize simulated network vulnerabilities.
 
 ---
 
