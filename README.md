@@ -83,7 +83,16 @@ I actively dive into the core execution layers of enterprise frameworks to resol
 
 ## ⚙️ Core Architecture & Agentic Toolkit
 
+<div align="center">
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,fastapi,docker,redis,mongodb,postgres,supabase,linux,git,bash,aws,gcp&perline=8" />
+  </a>
+  <br />
+</div>
+
+<br>
+
 * **Intelligence Swarms:** LangChain, CrewAI, LLM Orchestration, RAG Architecture, Autonomous Agents.
 * **Systems Architecture:** Docker, Microservices, REST API Design, Redis (BullMQ), Event-Driven Queues.
-* **Core Languages:** Python, TypeScript, Node.js, SQL.
 * **Data Layer:** MongoDB (NoSQL), Supabase (pgvector), High-Dimensional Vector Search.
