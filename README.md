@@ -42,7 +42,7 @@ This technical execution encompasses deploying autonomous execution swarms over 
 * **System Design:** Engineered the agent with a strict human-in-the-loop execution boundary and implemented graceful offline degradation protocols, guaranteeing system reliability even under severe API rate limits or network failures.
 * **Workflow Automation:** Replaced hours of manual data sorting by delegating complex pattern recognition and file routing tasks exclusively to the local AI engine.
 
-### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI)
+### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [Production Deployment](https://sumang-vision-ai-jczj.vercel.app/)
 > **Domain:** Edge Execution, Persistent State, Multi-Modal Inference.
 * **Architectural Overview:** Engineered a highly concurrent, memory-persistent visual LLM engine designed to sustain unbroken context for long-duration analysis.
 * **System Design:** Designed the backend to bypass standard stateless limitations, allowing the system to process complex visual schemas while retaining localized memory for continuous multi-user interaction.
