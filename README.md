@@ -31,10 +31,10 @@ Expertise lies in high-level system orchestration—leveraging advanced AI to ar
 * **Architectural Overview:** Architected a robust enterprise SaaS platform designed to ingest, semantically chunk, and automate the parsing of massive 100+ page corporate RFPs.
 * **System Design:** Built a highly scalable data ingestion pipeline that transforms unstructured corporate documents into normalized, queryable vector spaces, enabling high-accuracy, deterministic data retrieval over large context windows.
 
-### [AI Resource Manager Pipeline](https://github.com/NallaSumang/AI-RESOURCE-MANAGER)
-> **Domain:** Serverless Architecture, Latency Optimization, Schema Enforcement.
-* **Architectural Overview:** Designed an autonomous, dual-LLM scheduling engine tailored for ultra-low latency execution environments.
-* **System Design:** Deliberately bypassed standard "no-code" workflow limitations by engineering direct, raw REST API integrations to Groq LPUs. This architectural decision achieved sub-4s total execution latency while enforcing strict JSON schema validations on unstructured payloads.
+### [Kaggle Concierge Agent](https://github.com/NallaSumang/kaggle-concierge-agent)
+> **Domain:** Local Autonomous Agents, Human-in-the-Loop Workflows, Fallback Architectures.
+* **Architectural Overview:** Developed an autonomous file-system orchestration agent designed to securely scan, categorize, and sort massive unstructured local directories.
+* **System Design:** Engineered the agent with a strict human-in-the-loop execution boundary and implemented graceful offline degradation protocols, guaranteeing system reliability even under severe API rate limits or network failures.
 
 ### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI)
 > **Domain:** Edge Execution, Persistent State, Multi-Modal Inference.
