@@ -16,17 +16,17 @@ My engineering focus lies in architecting deeply decoupled systems—deploying a
 
 ## 🚀 Architectural Masterpieces & Agentic Swarms
 
-### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE)
+### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [🔴 Live Deployment](https://nexus-ai-vqxe.onrender.com)
 > **Architecture:** Decoupled Edge UI (React/Vite), Orchestration Gateway (Node.js), and Intelligence Swarm (Python/FastAPI).
 * Architected a fully autonomous, multi-agent platform for predictive career matching and interview simulation.
 * Utilized **Redis (BullMQ)** for non-blocking task delegation, deploying the entire multi-language stack via a singular, unified **Docker** container to guarantee zero-downtime AI inference.
 
-### [Lumina-Proposals (Enterprise SaaS RAG)](https://github.com/NallaSumang/Lumina-Proposals)
-> **Architecture:** Serverless Edge (Next.js), Python Execution Environment, Semantic Vector DB.
-* Engineered a high-accuracy Retrieval-Augmented Generation (RAG) product capable of processing 100+ page corporate RFPs and security questionnaires autonomously.
-* Built the complete data ingestion pipeline, utilizing specialized document parsers and semantic chunking strategies for enterprise-level data retrieval.
+### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [🔴 Live Deployment](https://sumang-vision-ai-jczj.vercel.app/)
+> **Architecture:** Next.js Edge Execution, Multi-Modal Vision Processing, Real-Time Inference.
+* Engineered a high-performance computer vision orchestration platform leveraging advanced multi-modal LLM reasoning.
+* Designed a zero-latency, highly concurrent backend capable of processing complex visual schemas and real-time environment analytics.
 
-### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-)
+### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [🔴 Live Deployment](https://distributed-ai-researcher.vercel.app)
 > **Architecture:** Next.js, Groq (Llama 3), Redis, Supabase (pgvector).
 * Built a scalable, asynchronous multi-agent orchestration layer using high-speed LLM inference.
 * Engineered robust state management using **Supabase pgvector** for high-dimensional semantic search and **Redis** for sub-millisecond session caching.
