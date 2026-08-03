@@ -1,8 +1,7 @@
-```markdown
 <div align="center">
-  <h1>NALLA SUMANG</h1>
-  <h3>NALLA SUMANG | AI Agent Architect & Systems Engineer</h3>
-  <p><em>Designing and operating production-grade multi-agent systems, LLM pipelines, and resilient asynchronous infrastructure.</em></p>
+  <h1>NALLA SUMANG</h1>
+  <h3>NALLA SUMANG | AI Agent Architect & Systems Engineer</h3>
+  <p><em>Designing and operating production-grade multi-agent systems, LLM pipelines, and resilient asynchronous infrastructure.</em></p>
 </div>
 
 ---
@@ -54,11 +53,11 @@ BrutalBench | Repo: https://github.com/NallaSumang/BrutalBench
 
 ## 🏆 Advanced Certifications
 
-* IBM RAG and Agentic AI Professional Certificate — Coursera  
-* Oracle Cloud Infrastructure Certified AI Foundations Associate — Oracle  
-* AI Engineer for Data Scientists Associate — DataCamp  
-* Associate Data Engineer — DataCamp  
-* Microsoft SQL Server Professional Certificate — Coursera  
+* IBM RAG and Agentic AI Professional Certificate — Coursera  
+* Oracle Cloud Infrastructure Certified AI Foundations Associate — Oracle  
+* AI Engineer for Data Scientists Associate — DataCamp  
+* Associate Data Engineer — DataCamp  
+* Microsoft SQL Server Professional Certificate — Coursera  
 * Google Advanced Data Analytics Professional Certificate — Coursera
 
 ---
@@ -66,17 +65,16 @@ BrutalBench | Repo: https://github.com/NallaSumang/BrutalBench
 ## ⚙️ Core Architecture & Technology Stack
 
 <div align="center">
-  <br />
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,fastapi,docker,redis,mongodb,postgres,supabase,linux,git,bash,aws,gcp&perline=8" />
-  </a>
-  <br />
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,fastapi,docker,redis,mongodb,postgres,supabase,linux,git,bash,aws,gcp&perline=8" />
+  </a>
+  <br />
 </div>
 
-- System design: microservices, event‑driven queues, container orchestration, serverless edges.  
-- Data & infra: Postgres, MongoDB, Supabase (pgvector), Redis (BullMQ), vector search backends.  
-- Backend & AI: Python (FastAPI), Node/Next.js, LLM orchestration frameworks and RAG pipelines.  
+- System design: microservices, event‑driven queues, container orchestration, serverless edges.  
+- Data & infra: Postgres, MongoDB, Supabase (pgvector), Redis (BullMQ), vector search backends.  
+- Backend & AI: Python (FastAPI), Node/Next.js, LLM orchestration frameworks and RAG pipelines.  
 - Operational: Docker, CI/CD smoke tests, structured logging, and production observability.
 
 ---
-```
