@@ -67,12 +67,15 @@ This technical execution encompasses deploying autonomous execution swarms over 
 ---
 ## 💼 Fellowships & Technical Engagements
 
-* **IBM SkillsBuild / Edunet Foundation** | *AI & Cloud Intern*
-  * Executed a structured engineering track focused on emerging cloud architectures and agentic frameworks.
-  * Engineered and deployed the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) leveraging **IBM Watsonx Orchestrate**, integrating custom knowledge ingestion, structured prompt behavior mapping, and real-time advisory pipelines.
-* **NexLevr** | *AI & Automation Intern*
-  * Completed specialized milestones in automation workflows and LLM execution stability from May to July 2026.
-  * Developed the [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI) to systematically benchmark inference drift and temperature sensitivity across high-parameter language models.
+* **IBM SkillsBuild & Edunet Foundation** | *AI & Cloud Engineering Intern*
+  * Participated in an intensive, project-based enterprise engineering track focused on emerging cloud platforms and agentic AI architectures under the IBM SkillsBuild initiative. 
+  * Designed and engineered the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) utilizing **IBM Watsonx Orchestrate**, implementing structured prompt behavior mapping, runtime knowledge-source ingestion, and automated multi-turn reasoning pipelines tailored for precision advisory domains.
+  * Explored real-world enterprise agent integration patterns, leveraging cloud-native tools to orchestrate deterministic workflows and minimize hallucination vectors in conversational interfaces.
+
+* **NexLevr** | *AI & Automation Engineering Intern*
+  * Engaged in advanced automation engineering workflows, focusing heavily on execution resilience, system integration, and large language model output governance.
+  * Developed and open-sourced the [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI), an auxiliary developer tool engineered to systematically audit temperature parameters, measure probabilistic generation drift, and evaluate token-level variance across high-parameter inference endpoints.
+  * Focused on bridging production reliability gaps by establishing reproducible measurement scripts for runtime model stability.
 
 ---
 ## ⚙️ Core Architecture & Technology Stack 
