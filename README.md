@@ -5,7 +5,6 @@
 </div>
 
 ---
-
 ## ⚡ Executive Summary
 
 An AI Systems Architect specializing in the rapid integration, design, and orchestration of autonomous agentic workflows. The core engineering focus is heavily rooted in replacing legacy system bottlenecks with high-availability, AI-driven asynchronous architectures that can scale dynamically.
