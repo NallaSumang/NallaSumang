@@ -1,9 +1,8 @@
 <div align="center">
-  <h1>NALLA SUMANG</h1>
-  <h3>AI Systems Architect & Agentic Orchestrator</h3>
-  <p><em>Orchestrating Autonomous Workflows, LLM Pipelines, and Enterprise-Grade Integrations.</em></p>
+  <h1>NALLA SUMANG</h1>
+  <h3>AI Agent Architect & Systems Engineer</h3>
+  <p><em>Designing and operating production-grade multi-agent systems, LLM pipelines, and resilient asynchronous infrastructure.</em></p>
 </div>
----
 
 ## ⚡ Executive Summary
 
