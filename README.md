@@ -68,11 +68,11 @@ This technical execution encompasses deploying autonomous execution swarms over 
 ## 💼 Fellowships & Technical Engagements
 
 * **IBM SkillsBuild / Edunet Foundation** | *AI & Cloud Intern*
-  * Executed a structured engineering track focused on emerging cloud architectures and agentic frameworks[cite: 7].
-  * Engineered and deployed the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) leveraging **IBM Watsonx Orchestrate**, integrating custom knowledge ingestion, structured prompt behavior mapping, and real-time advisory pipelines[cite: 10].
+  * Executed a structured engineering track focused on emerging cloud architectures and agentic frameworks.
+  * Engineered and deployed the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) leveraging **IBM Watsonx Orchestrate**, integrating custom knowledge ingestion, structured prompt behavior mapping, and real-time advisory pipelines.
 * **NexLevr** | *AI & Automation Intern*
-  * Completed specialized milestones in automation workflows and LLM execution stability from May to July 2026[cite: 8].
-  * Developed the [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI) to systematically benchmark inference drift and temperature sensitivity across high-parameter language models[cite: 6].
+  * Completed specialized milestones in automation workflows and LLM execution stability from May to July 2026.
+  * Developed the [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI) to systematically benchmark inference drift and temperature sensitivity across high-parameter language models.
 
 ---
 ## ⚙️ Core Architecture & Technology Stack 
