@@ -18,7 +18,7 @@ This technical execution encompasses deploying autonomous execution swarms over 
 
 ### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Production Deployment](https://distributed-ai-researcher.vercel.app)
 > **Domain:** Distributed Systems, Parallel Execution, Multi-Agent Orchestration.
-* **Architectural Overview:** Engineered a highly scalable, distributed research engine that decomposes complex heuristic queries into parallel execution threads. 
+* **Architectural Overview:** Engineered a highly scalable, distributed research engine that decomposes complex heuristic queries into parallel execution threads. 
 * **System Design:** Leveraged a swarm of high-parameter models (Llama 3.3 70B) orchestrated through a Next.js edge environment, utilizing **Redis** for sub-millisecond session caching and **Supabase (pgvector)** for high-dimensional semantic state management.
 * **Agentic Execution:** Designed the workflow to autonomously navigate live web data, cross-reference sources, and compile validated intelligence reports without human intervention.
 
@@ -59,6 +59,8 @@ This technical execution encompasses deploying autonomous execution swarms over 
 
 * **IBM RAG and Agentic AI Professional Certificate** — Coursera.
 * **Oracle Cloud Infrastructure Certified AI Foundations Associate** — Oracle.
+* **Oracle Agentic AI Certified Foundations Associate** — Oracle.
+* **Oracle Fusion AI Agent Studio Certified Foundations Associate (Rel 1)** — Oracle.
 * **AI Engineer for Data Scientists Associate** — DataCamp.
 * **Associate Data Engineer** — DataCamp.
 * **Microsoft SQL Server Professional Certificate** — Coursera.
@@ -81,11 +83,11 @@ This technical execution encompasses deploying autonomous execution swarms over 
 ## ⚙️ Core Architecture & Technology Stack 
 
 <div align="center">
-  <br />
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,fastapi,docker,redis,mongodb,postgres,supabase,linux,git,bash,aws,gcp&perline=8" />
-  </a>
-  <br />
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,fastapi,docker,redis,mongodb,postgres,supabase,linux,git,bash,aws,gcp&perline=8" />
+  </a>
+  <br />
 </div>
 
 <br>
