@@ -16,41 +16,43 @@ This technical execution encompasses deploying autonomous execution swarms over 
 
 ## 🚀 Core Architectural Implementations
 
-### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Production Deployment](https://distributed-ai-researcher.vercel.app)
-> **Domain:** Distributed Systems, Parallel Execution, Multi-Agent Orchestration.
-* **Architectural Overview:** Engineered a highly scalable, distributed research engine that decomposes complex heuristic queries into parallel execution threads. 
-* **System Design:** Leveraged a swarm of high-parameter models (Llama 3.3 70B) orchestrated through a Next.js edge environment, utilizing **Redis** for sub-millisecond session caching and **Supabase (pgvector)** for high-dimensional semantic state management.
-* **Agentic Execution:** Designed the workflow to autonomously navigate live web data, cross-reference sources, and compile validated intelligence reports without human intervention.
+### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Live App](https://distributed-ai-researcher.vercel.app)
+> **Stack:** Next.js 16 · FastAPI · LangGraph · Groq (LLaMA 3.3 70B) · Upstash Redis · Supabase PostgreSQL
+> **Deploy:** Vercel (frontend) · Hugging Face Spaces Docker (backend + worker on port 7860)
+* Distributed research engine that decomposes complex queries into parallel execution threads via a LangGraph agent swarm (Architect → Scouts → Synthesizer).
+* Backend worker runs as a background process in the same Docker container, consuming jobs from Upstash Redis via BRPOP and archiving synthesized reports to Supabase.
+* Scouts execute concurrent web searches via `duckduckgo-search` + Python `asyncio`, eliminating I/O bottlenecks.
 
-### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Production Deployment](https://nexus-ai-vqxe.onrender.com)
-> **Domain:** Full-Stack Decoupling, Container Orchestration, Asynchronous Queues.
-* **Architectural Overview:** Architected a production-grade, multi-agent LLM orchestrator that automates complex career matching and simulation pipelines.
-* **System Design:** Designed a deeply decoupled microservice architecture bridging a React/Vite client and a Python/FastAPI intelligence layer. Integrated **Redis (BullMQ)** to ensure non-blocking, asynchronous task delegation and containerized the entire ecosystem via unified **Docker** deployments to guarantee zero-downtime CI/CD.
-* **Integration Strategy:** Synced complex data streams between frontend state managers and heavy backend inference engines to ensure uninterrupted user experiences during long AI reasoning processes.
+### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Live App](https://nexus-ai-vqxe.onrender.com)
+> **Stack:** React 18/Vite · Node.js/Express · Python/FastAPI · BullMQ · Upstash Redis · MongoDB Atlas · Firebase Auth
+> **Deploy:** Single Docker container on Render free tier (Node + Python via `concurrently`)
+* Full-stack career copilot — resume parsing (PDF → GridFS → LLM), job matching, cover letter generation, and interview prep, all offloaded to BullMQ workers.
+* Python is a pure stateless HTTP service; Node BullMQ workers consume queue jobs and call Python over localhost HTTP. Python never touches Redis.
+* Switchable LLM providers (OpenAI / Groq / Gemini) via `AI_PROVIDER` env var with 55s timeouts.
 
-### [Lumina-Proposals (Enterprise SaaS RAG)](https://github.com/NallaSumang/Lumina-Proposals)
-> **Domain:** Cloud-Native Data Pipelines, Enterprise RAG, Vector Search.
-* **Architectural Overview:** Architected a robust enterprise SaaS platform designed to ingest, semantically chunk, and automate the parsing of massive 100+ page corporate RFPs.
-* **System Design:** Built a highly scalable data ingestion pipeline that transforms unstructured corporate documents into normalized, queryable vector spaces, enabling high-accuracy, deterministic data retrieval over large context windows.
-* **Retrieval Logic:** Optimized embedding algorithms and vector proximity searches to drastically reduce hallucinations and enforce strict data provenance in high-stakes financial environments.
+### [Autonomous Vision AI](https://github.com/NallaSumang/VISION-AI) | [Live App](https://sumang-vision-ai-jczj.vercel.app/)
+> **Stack:** Next.js 16 · Python/FastAPI · Google Gemini (`gemini-2.0-flash-lite`) · Pinecone
+> **Deploy:** Vercel (frontend) · Render (backend: `my-ai-brain`)
+* Multimodal AI engine processing text + image inputs through Google Gemini for inference, with persistent vector memory via Pinecone (`vision-memory` index) for long-duration context retention.
+* Conversation state serialized to `chat_history.json` for local backup alongside Pinecone's durable vector layer.
+
+### [Lumina-Proposals](https://github.com/NallaSumang/Lumina-Proposals)
+> **Stack:** Next.js 15 · TypeScript · shadcn/ui · Zustand · TanStack Query · Custom RAG pipeline
+> **Status:** Local development prototype (not deployed)
+* Local-first RAG engine for processing corporate RFPs — complete document ingestion pipeline with semantic chunking, embedding, and retrieval services.
+* RAG service layer is fully implemented (7 TypeScript modules) but currently operates on mock embeddings; OpenAI integration is stubbed but not yet wired to a live key.
+
+### [BrutalBench](https://github.com/NallaSumang/BrutalBench)
+> **Stack:** Next.js 16 · Supabase PostgreSQL · Google Gemini · NextAuth (GitHub OAuth) · n8n
+> **Status:** Local development (not deployed)
+* AI-powered code evaluation framework with a leaderboard dashboard. Google Gemini scores LLM-generated code against engineering rubrics.
+* n8n webhook integration upserts evaluation metrics into Supabase via stored procedures, automating the scoring pipeline.
 
 ### [Kaggle Concierge Agent](https://github.com/NallaSumang/kaggle-concierge-agent)
-> **Domain:** Local Autonomous Agents, Human-in-the-Loop Workflows, Fallback Architectures.
-* **Architectural Overview:** Developed an autonomous file-system orchestration agent designed to securely scan, categorize, and sort massive unstructured local directories.
-* **System Design:** Engineered the agent with a strict human-in-the-loop execution boundary and implemented graceful offline degradation protocols, guaranteeing system reliability even under severe API rate limits or network failures.
-* **Workflow Automation:** Replaced hours of manual data sorting by delegating complex pattern recognition and file routing tasks exclusively to the local AI engine.
-
-### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [Production Deployment](https://sumang-vision-ai-jczj.vercel.app/)
-> **Domain:** Edge Execution, Persistent State, Multi-Modal Inference.
-* **Architectural Overview:** Engineered a highly concurrent, memory-persistent visual LLM engine designed to sustain unbroken context for long-duration analysis.
-* **System Design:** Designed the backend to bypass standard stateless limitations, allowing the system to process complex visual schemas while retaining localized memory for continuous multi-user interaction.
-* **Context Retention:** Implemented a unique caching architecture that allows the agent to hold conversation state for up to 3 hours, enabling advanced multi-turn visual diagnostic capabilities.
-
-### [BrutalBench Automation](https://github.com/NallaSumang/BrutalBench)
-> **Domain:** CI/CD Integration, Cryptographic Keys, Autonomous Code Evaluation.
-* **Architectural Overview:** Designed a monolithic Next.js backend architecture to intercept, parse, and ruthlessly evaluate raw developer code commits using autonomous AI pipelines.
-* **System Design:** Powered an automated, dynamic execution leaderboard by securely managing master keys and complex Webhook payload transformations.
-* **Execution Logic:** Constructed autonomous evaluation rubrics that instantly grade inbound code against strict architectural and algorithmic standards.
+> **Stack:** Google ADK 2.0 · Gemini 2.5 Flash · MCP Filesystem Server · Python
+> **Status:** Local CLI tool
+* Autonomous file-system organizer using Google's Agent Development Kit 2.0 Workflow API with a strict human-in-the-loop approval boundary (SCAN → PLAN → CONFIRM).
+* LLM agent interfaces with a local MCP Filesystem Server via stdio to scan, categorize, and sort files without any cloud dependencies.
 
 ---
 
@@ -93,6 +95,6 @@ This technical execution encompasses deploying autonomous execution swarms over 
 <br>
 
 * **System Design:** Microservices, Event-Driven Queues, Container Orchestration (Docker), Serverless Functions.
-* **Data Infrastructure:** Relational SQL, MongoDB (NoSQL), Supabase (pgvector), Redis (BullMQ), Vector Search.
+* **Data Infrastructure:** Relational SQL, MongoDB (NoSQL), Supabase (pgvector), Redis (BullMQ), Vector Search (Pinecone).
 * **Backend Frameworks:** Node.js, Next.js (Edge), Python (FastAPI).
-* **AI Integration:** LLM Orchestration, LangChain, CrewAI, RAG Architecture, Multi-Agent Swarms.
+* **AI Integration:** LLM Orchestration (LangGraph, Google ADK), RAG Architecture, Multi-Agent Swarms, Google Gemini, Groq.
