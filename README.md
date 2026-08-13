@@ -1,7 +1,7 @@
 <div align="center">
   <h1>NALLA SUMANG</h1>
   <h3>AI Agent Architect & Systems Engineer</h3>
-  <p><em>Designing and operating production-grade multi-agent systems, LLM pipelines, and resilient asynchronous infrastructure.</em></p>
+  <p><em>Designing and building multi-agent systems, LLM pipelines, and the asynchronous infrastructure that runs them — from live deployments to active prototypes.</em></p>
 </div>
 
 ## ⚡ Executive Summary
