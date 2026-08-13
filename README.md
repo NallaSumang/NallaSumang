@@ -49,10 +49,10 @@ This technical execution encompasses deploying autonomous execution swarms over 
 * n8n webhook integration upserts evaluation metrics into Supabase via stored procedures, automating the scoring pipeline.
 
 ### [Kaggle Concierge Agent](https://github.com/NallaSumang/kaggle-concierge-agent)
-> **Stack:** Google ADK 2.0 · Gemini 2.5 Flash · MCP Filesystem Server · Python
+> **Stack:** Google ADK 2.6 · Gemini 2.5 Flash · MCP Filesystem Server · Python
 > **Status:** Local CLI tool
-* Autonomous file-system organizer using Google's Agent Development Kit 2.0 Workflow API with a strict human-in-the-loop approval boundary (SCAN → PLAN → CONFIRM).
-* LLM agent interfaces with a local MCP Filesystem Server via stdio to scan, categorize, and sort files without any cloud dependencies.
+* Autonomous, self-healing file-system organizer that uses the Model Context Protocol (MCP) to restructure local directories via natural language. Engineered with a strict human-in-the-loop approval boundary (SCAN → PLAN → CONFIRM).
+* Features Enterprise-Grade Graceful Degradation (a zero-downtime offline heuristic engine that instantly takes over if cloud LLM APIs fail) and a Global Undo Architecture for instant reversions of file migrations.
 
 ---
 
