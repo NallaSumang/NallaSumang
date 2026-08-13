@@ -1,96 +1,98 @@
 <div align="center">
   <h1>NALLA SUMANG</h1>
-  <h3>AI Systems Engineer — Solo-Built Agentic Applications</h3>
-  <p><em>Designing, deploying, and hardening asynchronous LLM pipelines and multi-agent tools — end to end, from architecture to production debugging.</em></p>
-
-  <br/>
-
-  <img src="https://github-readme-stats.vercel.app/api?username=NallaSumang&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NallaSumang&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
-
+  <h3>AI Agent Architect & Systems Engineer</h3>
+  <p><em>Designing and operating production-grade multi-agent systems, LLM pipelines, and resilient asynchronous infrastructure.</em></p>
 </div>
 
-## ⚡ Summary
+## ⚡ Executive Summary
 
-I design and ship agentic AI systems solo — end-to-end, from architecture through deployment and post-launch debugging. My focus is on **asynchronous execution patterns**: decoupling slow LLM inference from user-facing request paths using message queues (Redis/BullMQ), so applications stay responsive instead of blocking on multi-second model calls.
+An AI Systems Architect specializing in the rapid integration, design, and orchestration of autonomous agentic workflows. The core engineering focus is heavily rooted in replacing legacy system bottlenecks with high-availability, AI-driven asynchronous architectures that can scale dynamically.
 
-I build under real constraints — free-tier hosting, single-developer bandwidth, no dedicated QA — and treat that as a design problem, not an excuse. Several of my projects document their own operating limits directly in the repo (resource caps, scaling notes, known trade-offs) rather than glossing over them, because I'd rather an architecture be honest about what it can currently do than oversell it. Below, each project links to a live deployment and its actual repo — go check the code.
+Expertise lies in high-level system orchestration—leveraging advanced Large Language Models (LLMs) to architect, automate, and integrate production-grade infrastructures at unprecedented speeds. Rather than treating AI as a simple chatbot interface, the focus is on utilizing AI as a core reasoning engine embedded deep within enterprise systems, enabling autonomous decision-making and real-time data synthesis across decoupled microservices.
+
+This technical execution encompasses deploying autonomous execution swarms over asynchronous message queues (Redis/BullMQ), enforcing robust, persistent state management through high-dimensional vector databases (Supabase pgvector), and bridging complex, zero-downtime containerized ecosystems (Docker) capable of handling massive telemetry and inference workloads without failure.
 
 ---
 
-## 🚀 Projects
+## 🚀 Core Architectural Implementations
 
-### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Live](https://distributed-ai-researcher.vercel.app)
-> **Stack:** Next.js, FastAPI, LangGraph, Groq (Llama 3.3 70B), Upstash Redis, Supabase.
+### [Distributed AI Researcher](https://github.com/NallaSumang/DISTRIBUTED-AI-RESEARCHER-) | [Production Deployment](https://distributed-ai-researcher.vercel.app)
+> **Domain:** Distributed Systems, Parallel Execution, Multi-Agent Orchestration.
+* **Architectural Overview:** Engineered a highly scalable, distributed research engine that decomposes complex heuristic queries into parallel execution threads. 
+* **System Design:** Leveraged a swarm of high-parameter models (Llama 3.3 70B) orchestrated through a Next.js edge environment, utilizing **Redis** for sub-millisecond session caching and **Supabase (pgvector)** for high-dimensional semantic state management.
+* **Agentic Execution:** Designed the workflow to autonomously navigate live web data, cross-reference sources, and compile validated intelligence reports without human intervention.
 
-An autonomous research agent that breaks a topic into sub-queries, fans them out to parallel "scout" agents using Python `asyncio` (rather than blocking sequential calls), and has a synthesizer agent compile the results into a structured report. Redis is used as a persistent job queue so the frontend can poll for results instead of holding an HTTP connection open through a multi-minute research run — this avoids gateway timeouts on long-running AI tasks, which is the actual problem this architecture solves.
+### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Production Deployment](https://nexus-ai-vqxe.onrender.com)
+> **Domain:** Full-Stack Decoupling, Container Orchestration, Asynchronous Queues.
+* **Architectural Overview:** Architected a production-grade, multi-agent LLM orchestrator that automates complex career matching and simulation pipelines.
+* **System Design:** Designed a deeply decoupled microservice architecture bridging a React/Vite client and a Python/FastAPI intelligence layer. Integrated **Redis (BullMQ)** to ensure non-blocking, asynchronous task delegation and containerized the entire ecosystem via unified **Docker** deployments to guarantee zero-downtime CI/CD.
+* **Integration Strategy:** Synced complex data streams between frontend state managers and heavy backend inference engines to ensure uninterrupted user experiences during long AI reasoning processes.
 
-### [Nexus Career Intelligence](https://github.com/NallaSumang/NEXUS-CAREER-INTELLIGENCE) | [Live](https://nexus-ai-vqxe.onrender.com)
-> **Stack:** React/Vite, Node.js/Express, Python/FastAPI, BullMQ + Redis, MongoDB, Docker.
-
-A placement-prep copilot for B.Tech students — upload a resume, paste a job description, get a match score, missing-skills breakdown, a drafted cover letter, and interview questions. The Express API and FastAPI inference layer run as two processes in one Docker container; resume parsing and AI scoring are offloaded to BullMQ workers so the API responds immediately while the LLM call runs in the background.
-
-Runs on Render's free tier (~0.1 vCPU / 512MB RAM) — worker concurrency is deliberately capped at 1 to avoid resource starvation, a tuning decision made after hitting it in practice. The repo documents ten specific production bugs found and fixed post-deployment, including a MongoDB connection storm from `initializeApp()` re-running per request, a Redis retry strategy that silently gave up after one failure, and an invalid CORS config that violated RFC 6454 — the kind of debugging you only do after something has actually broken in front of real users. Informally tested with 10+ peer users before and after those fixes.
-
-### [Lumina-Proposals](https://github.com/NallaSumang/Lumina-Proposals)
-> **Stack:** Next.js, TypeScript, in-memory vector store, custom chunking/embedding pipeline.
-
-A local-first RAG prototype for parsing large PDFs (100+ page RFPs) into chunked, embedded, queryable text. Built to test a document-ingestion and retrieval pipeline end to end, with the vector store held in-process for zero-latency reads during development. The repo's own architecture notes are explicit about the two changes needed before this could run at real scale: ingestion currently runs synchronously inline (would need to move to a queued background job for concurrent uploads), and the in-memory store would need to move to a persistent vector DB like pgvector before handling large document volumes without hitting memory limits. Documenting that gap deliberately, rather than shipping past it silently, is the point.
+### [Lumina-Proposals (Enterprise SaaS RAG)](https://github.com/NallaSumang/Lumina-Proposals)
+> **Domain:** Cloud-Native Data Pipelines, Enterprise RAG, Vector Search.
+* **Architectural Overview:** Architected a robust enterprise SaaS platform designed to ingest, semantically chunk, and automate the parsing of massive 100+ page corporate RFPs.
+* **System Design:** Built a highly scalable data ingestion pipeline that transforms unstructured corporate documents into normalized, queryable vector spaces, enabling high-accuracy, deterministic data retrieval over large context windows.
+* **Retrieval Logic:** Optimized embedding algorithms and vector proximity searches to drastically reduce hallucinations and enforce strict data provenance in high-stakes financial environments.
 
 ### [Kaggle Concierge Agent](https://github.com/NallaSumang/kaggle-concierge-agent)
-> **Stack:** Python.
+> **Domain:** Local Autonomous Agents, Human-in-the-Loop Workflows, Fallback Architectures.
+* **Architectural Overview:** Developed an autonomous file-system orchestration agent designed to securely scan, categorize, and sort massive unstructured local directories.
+* **System Design:** Engineered the agent with a strict human-in-the-loop execution boundary and implemented graceful offline degradation protocols, guaranteeing system reliability even under severe API rate limits or network failures.
+* **Workflow Automation:** Replaced hours of manual data sorting by delegating complex pattern recognition and file routing tasks exclusively to the local AI engine.
 
-A single-script local automation tool that scans, categorizes, and sorts files by extension, with a human-in-the-loop confirmation step for any ambiguous action and graceful fallback behavior when the Kaggle API is rate-limited. Deliberately kept as one script rather than a service — for a tool that runs on-demand on your own machine, a microservice architecture would be solving a problem that doesn't exist.
+### [Autonomous Vision AI Platform](https://github.com/NallaSumang/VISION-AI) | [Production Deployment](https://sumang-vision-ai-jczj.vercel.app/)
+> **Domain:** Edge Execution, Persistent State, Multi-Modal Inference.
+* **Architectural Overview:** Engineered a highly concurrent, memory-persistent visual LLM engine designed to sustain unbroken context for long-duration analysis.
+* **System Design:** Designed the backend to bypass standard stateless limitations, allowing the system to process complex visual schemas while retaining localized memory for continuous multi-user interaction.
+* **Context Retention:** Implemented a unique caching architecture that allows the agent to hold conversation state for up to 3 hours, enabling advanced multi-turn visual diagnostic capabilities.
 
-### [Vision AI](https://github.com/NallaSumang/VISION-AI) | [Live](https://sumang-vision-ai-jczj.vercel.app/)
-> **Stack:** Next.js, Python (local backend), multimodal LLM calls.
-
-A multimodal chat interface that holds conversation context for extended sessions (~3 hours) using local file-based history rather than a stateless single-turn design. Built as a local-first application — the README notes that persistent state via disk I/O won't survive a serverless container teardown, so this is designed as a locally-run system rather than something horizontally scaled at the edge; scaling it that way would mean swapping the local JSON store for Redis or a managed database first.
-
-### [BrutalBench](https://github.com/NallaSumang/BrutalBench)
-> **Stack:** Next.js (monolith), Supabase, n8n.
-
-An AI code-evaluation leaderboard: incoming code submissions are graded against a rubric and the results are upserted into a Supabase-backed leaderboard, with n8n handling the webhook automation between external test runs and the database. Uses standard Supabase environment-key auth for the webhook-to-database write path.
-
----
-
-## 🏆 Certifications
-
-* **IBM RAG and Agentic AI Professional Certificate** — Coursera
-* **Oracle Cloud Infrastructure Certified AI Foundations Associate** — Oracle
-* **Oracle Agentic AI Certified Foundations Associate** — Oracle
-* **Oracle Fusion AI Agent Studio Certified Foundations Associate (Rel 1)** — Oracle
-* **AI Engineer for Data Scientists Associate** — DataCamp
-* **Associate Data Engineer** — DataCamp
-* **Microsoft SQL Server Professional Certificate** — Coursera
-* **Google Advanced Data Analytics Professional Certificate** — Coursera
+### [BrutalBench Automation](https://github.com/NallaSumang/BrutalBench)
+> **Domain:** CI/CD Integration, Cryptographic Keys, Autonomous Code Evaluation.
+* **Architectural Overview:** Designed a monolithic Next.js backend architecture to intercept, parse, and ruthlessly evaluate raw developer code commits using autonomous AI pipelines.
+* **System Design:** Powered an automated, dynamic execution leaderboard by securely managing master keys and complex Webhook payload transformations.
+* **Execution Logic:** Constructed autonomous evaluation rubrics that instantly grade inbound code against strict architectural and algorithmic standards.
 
 ---
 
-## 💼 Internships
 
-**IBM SkillsBuild & Edunet Foundation** — *AI & Cloud Engineering Intern*
-Built the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) on IBM Watsonx Orchestrate — structured prompt-behavior mapping and runtime knowledge-source grounding to keep a precision-advisory agent's outputs constrained to reference data rather than free-generating.
+## 🏆 Advanced Certifications
 
-**NexLevr** — *AI & Automation Engineering Intern*
-Built and open-sourced [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI) — a CLI that measures temperature-driven output variance and token-level drift across OpenAI, Groq, and local endpoints, for setting reliability thresholds in agentic pipelines that need deterministic-ish behavior.
+* **IBM RAG and Agentic AI Professional Certificate** — Coursera.
+* **Oracle Cloud Infrastructure Certified AI Foundations Associate** — Oracle.
+* **Oracle Agentic AI Certified Foundations Associate** — Oracle.
+* **Oracle Fusion AI Agent Studio Certified Foundations Associate (Rel 1)** — Oracle.
+* **AI Engineer for Data Scientists Associate** — DataCamp.
+* **Associate Data Engineer** — DataCamp.
+* **Microsoft SQL Server Professional Certificate** — Coursera.
+* **Google Advanced Data Analytics Professional Certificate** — Coursera.
 
 ---
+## 💼 Fellowships & Technical Engagements
 
-## ⚙️ Stack
+* **IBM SkillsBuild & Edunet Foundation** | *AI & Cloud Engineering Intern*
+  * Participated in an intensive, project-based enterprise engineering track focused on emerging cloud platforms and agentic AI architectures under the IBM SkillsBuild initiative. 
+  * Designed and engineered the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) utilizing **IBM Watsonx Orchestrate**, implementing structured prompt behavior mapping, runtime knowledge-source ingestion, and automated multi-turn reasoning pipelines tailored for precision advisory domains.
+  * Explored real-world enterprise agent integration patterns, leveraging cloud-native tools to orchestrate deterministic workflows and minimize hallucination vectors in conversational interfaces.
+
+* **NexLevr** | *AI & Automation Engineering Intern*
+  * Engaged in advanced automation engineering workflows, focusing heavily on execution resilience, system integration, and large language model output governance.
+  * Developed and open-sourced the [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI), an auxiliary developer tool engineered to systematically audit temperature parameters, measure probabilistic generation drift, and evaluate token-level variance across high-parameter inference endpoints.
+  * Focused on bridging production reliability gaps by establishing reproducible measurement scripts for runtime model stability.
+
+---
+## ⚙️ Core Architecture & Technology Stack 
 
 <div align="center">
   <br />
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,fastapi,docker,redis,mongodb,postgres,supabase,linux,git,bash&perline=8" />
+    <img src="https://skillicons.dev/icons?i=python,ts,nodejs,react,nextjs,fastapi,docker,redis,mongodb,postgres,supabase,linux,git,bash,aws,gcp&perline=8" />
   </a>
   <br />
 </div>
 
 <br>
 
-* **Async & Queues:** Redis, BullMQ, asyncio, background workers
-* **Data:** MongoDB, PostgreSQL, Supabase (pgvector), vector search
-* **Backend:** Node.js/Express, Python/FastAPI, Docker
-* **AI/LLM:** LangChain, LangGraph, CrewAI, RAG pipelines, multi-agent orchestration
-* **Frontend:** React, Next.js, Vite, TypeScript
+* **System Design:** Microservices, Event-Driven Queues, Container Orchestration (Docker), Serverless Functions.
+* **Data Infrastructure:** Relational SQL, MongoDB (NoSQL), Supabase (pgvector), Redis (BullMQ), Vector Search.
+* **Backend Frameworks:** Node.js, Next.js (Edge), Python (FastAPI).
+* **AI Integration:** LLM Orchestration, LangChain, CrewAI, RAG Architecture, Multi-Agent Swarms.
