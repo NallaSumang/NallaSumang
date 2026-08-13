@@ -6,11 +6,11 @@
 
 ## ⚡ Executive Summary
 
-An AI Systems Architect specializing in the rapid integration, design, and orchestration of autonomous agentic workflows. The core engineering focus is heavily rooted in replacing legacy system bottlenecks with high-availability, AI-driven asynchronous architectures that can scale dynamically.
+An AI & Backend Systems Engineer specializing in the design and orchestration of multi-agent LLM workflows. The core engineering focus is on replacing single-threaded, blocking LLM calls with asynchronous, queue-based architectures that stay responsive under long-running inference.
 
-Expertise lies in high-level system orchestration—leveraging advanced Large Language Models (LLMs) to architect, automate, and integrate production-grade infrastructures at unprecedented speeds. Rather than treating AI as a simple chatbot interface, the focus is on utilizing AI as a core reasoning engine embedded deep within enterprise systems, enabling autonomous decision-making and real-time data synthesis across decoupled microservices.
+Expertise lies in system-level orchestration—using LangGraph and Google ADK to coordinate specialized AI agents, and structured outputs (Pydantic) to keep multi-step reasoning reliable rather than freeform. Rather than treating AI as a simple chatbot interface, the focus is on using AI as a reasoning layer embedded within decoupled services—agents that plan, retrieve, and act across separate frontend, backend, and worker processes.
 
-This technical execution encompasses deploying autonomous execution swarms over asynchronous message queues (Redis/BullMQ), enforcing robust, persistent state management through high-dimensional vector databases (Supabase pgvector), and bridging complex, zero-downtime containerized ecosystems (Docker) capable of handling massive telemetry and inference workloads without failure.
+This technical execution includes deploying agent workflows over asynchronous message queues (Redis/BullMQ), maintaining persistent semantic memory through vector databases (Supabase pgvector, Pinecone), and containerizing backend and worker processes (Docker) for deployment across Render, Vercel, and Hugging Face Spaces.
 
 ---
 
