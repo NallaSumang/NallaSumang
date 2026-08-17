@@ -59,6 +59,7 @@ This technical execution includes deploying agent workflows over asynchronous me
 
 ## 🏆 Advanced Certifications
 
+* **GitHub Copilot Certified Architect (GH-300)** — Microsoft / GitHub Credential Program.
 * **IBM RAG and Agentic AI Professional Certificate** — Coursera.
 * **Oracle Cloud Infrastructure Certified AI Foundations Associate** — Oracle.
 * **Oracle Agentic AI Certified Foundations Associate** — Oracle.
