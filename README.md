@@ -31,7 +31,7 @@ This technical execution includes deploying agent workflows over asynchronous me
 * Switchable LLM providers (OpenAI / Groq / Gemini) via `AI_PROVIDER` env var with 55s timeouts.
 
 ### [Autonomous Vision AI](https://github.com/NallaSumang/VISION-AI) | [Live App](https://sumang-vision-ai-jczj.vercel.app/)
-> **Stack:** Next.js 16 · Python/FastAPI · Google Gemini (`gemini-2.0-flash-lite`) · Pinecone
+> **Stack:** Next.js 16 · Python/FastAPI · Google Gemini (`gemini-3.6-flash`) · Pinecone
 > **Deploy:** Vercel (frontend) · Render (backend: `my-ai-brain`)
 * Multimodal AI engine processing text + image inputs through Google Gemini for inference, with persistent vector memory via Pinecone (`vision-memory` index) for long-duration context retention.
 * Conversation state serialized to `chat_history.json` for local backup alongside Pinecone's durable vector layer.
