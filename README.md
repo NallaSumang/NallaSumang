@@ -8,7 +8,7 @@
 
 An AI & Backend Systems Engineer specializing in the design and orchestration of multi-agent LLM workflows. The core engineering focus is on replacing single-threaded, blocking LLM calls with asynchronous, queue-based architectures that stay responsive under long-running inference.
 
-Expertise lies in system-level orchestration—using LangGraph and Google ADK to coordinate specialized AI agents, and structured outputs (Pydantic) to keep multi-step reasoning reliable rather than freeform. Rather than treating AI as a simple chatbot interface, the focus is on using AI as a reasoning layer embedded within decoupled services—agents that plan, retrieve, and act across separate frontend, backend, and worker processes.
+Expertise lies in system-level orchestration using LangGraph and Google ADK to coordinate specialized AI agents, and structured outputs (Pydantic) to keep multi-step reasoning reliable rather than freeform. Rather than treating AI as a simple chatbot interface, the focus is on using AI as a reasoning layer embedded within decoupled services agents that plan, retrieve, and act across separate frontend, backend, and worker processes.
 
 This technical execution includes deploying agent workflows over asynchronous message queues (Redis/BullMQ), maintaining persistent semantic memory through vector databases (Supabase pgvector, Pinecone), and containerizing backend and worker processes (Docker) for deployment across Render, Vercel, and Hugging Face Spaces.
 
