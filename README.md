@@ -60,6 +60,20 @@ This technical execution includes deploying agent workflows over asynchronous me
 
 ---
 
+## 💼 Fellowships & Technical Engagements
+
+* **IBM SkillsBuild & Edunet Foundation** | *AI & Cloud Engineering Intern*
+  * Participated in an intensive, project-based enterprise engineering track focused on emerging cloud platforms and agentic AI architectures under the IBM SkillsBuild initiative. 
+  * Designed and engineered the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) utilizing **IBM Watsonx Orchestrate**, implementing structured prompt behavior mapping, runtime knowledge-source ingestion, and automated multi-turn reasoning pipelines tailored for precision advisory domains.
+  * Explored real-world enterprise agent integration patterns, leveraging cloud-native tools to orchestrate deterministic workflows and minimize hallucination vectors in conversational interfaces.
+
+* **NexLevr** | *AI & Automation Engineering Intern*
+  * Engaged in advanced automation engineering workflows, focusing heavily on execution resilience, system integration, and large language model output governance.
+  * Developed and open-sourced the [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI), an auxiliary developer tool engineered to systematically audit temperature parameters, measure probabilistic generation drift, and evaluate token-level variance across high-parameter inference endpoints.
+  * Focused on bridging production reliability gaps by establishing reproducible measurement scripts for runtime model stability.
+
+ ---
+ 
 ## 🎓 Google Student Ambassador — Hyderabad Region
 
 ![GSA](https://img.shields.io/badge/Role-Google%20Student%20Ambassador-4285F4?style=flat-square&logo=google&logoColor=white)
@@ -86,19 +100,7 @@ Representing Google across the Hyderabad region to drive technical adoption of t
 * **Google Advanced Data Analytics Professional Certificate** — Coursera.
 
 ---
-## 💼 Fellowships & Technical Engagements
 
-* **IBM SkillsBuild & Edunet Foundation** | *AI & Cloud Engineering Intern*
-  * Participated in an intensive, project-based enterprise engineering track focused on emerging cloud platforms and agentic AI architectures under the IBM SkillsBuild initiative. 
-  * Designed and engineered the [watsonx-nutrition-agent](https://github.com/NallaSumang/watsonx-nutrition-agent) utilizing **IBM Watsonx Orchestrate**, implementing structured prompt behavior mapping, runtime knowledge-source ingestion, and automated multi-turn reasoning pipelines tailored for precision advisory domains.
-  * Explored real-world enterprise agent integration patterns, leveraging cloud-native tools to orchestrate deterministic workflows and minimize hallucination vectors in conversational interfaces.
-
-* **NexLevr** | *AI & Automation Engineering Intern*
-  * Engaged in advanced automation engineering workflows, focusing heavily on execution resilience, system integration, and large language model output governance.
-  * Developed and open-sourced the [LLM-Output-Variance-CLI](https://github.com/NallaSumang/LLM-Output-Variance-CLI), an auxiliary developer tool engineered to systematically audit temperature parameters, measure probabilistic generation drift, and evaluate token-level variance across high-parameter inference endpoints.
-  * Focused on bridging production reliability gaps by establishing reproducible measurement scripts for runtime model stability.
-
----
 ## ⚙️ Core Architecture & Technology Stack 
 
 <div align="center">
