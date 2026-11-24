@@ -2,10 +2,6 @@
   <h1>NALLA SUMANG</h1>
   <h3>AI Agent Architect & Systems Engineer</h3>
   <p><em>Designing and building multi-agent systems, LLM pipelines, and the asynchronous infrastructure that runs them — from live deployments to active prototypes.</em></p>
-
-  ![Google Student Ambassador](https://img.shields.io/badge/Google-Student%20Ambassador-4285F4?style=for-the-badge&logo=google&logoColor=white)
-  ![GID](https://img.shields.io/badge/GID-14224-34A853?style=for-the-badge)
-  ![Region](https://img.shields.io/badge/Region-Hyderabad-EA4335?style=for-the-badge)
 </div>
 
 ## ⚡ Executive Summary
@@ -74,8 +70,7 @@ This technical execution includes deploying agent workflows over asynchronous me
 
  ---
  
-## 🎓 Google Student Ambassador
-— Hyderabad Region
+## 🎓 Google Student Ambassador — Hyderabad Region
 
 ![GSA](https://img.shields.io/badge/Role-Google%20Student%20Ambassador-4285F4?style=flat-square&logo=google&logoColor=white)
 ![GID](https://img.shields.io/badge/GID-14224-34A853?style=flat-square)
